@@ -3,6 +3,8 @@ $(document).ready(function() {
     stickNavbar();
     navbarHighlight();
 
+$("body").css("overflow", "hidden");
+
     var toggle  = document.querySelector(".c-hamburger");
     (toggle.classList.contains("is-active") === true) ? toggle.classList.remove("is-active") : toggle.classList.add("is-active");
 });
@@ -15,7 +17,7 @@ $(window).scroll(function() {
 });
 
 // Animate scrolling between sections
-$('.nav a,.brand, #arrow_link').click(function(){
+$('#arrow_link,.brand').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
