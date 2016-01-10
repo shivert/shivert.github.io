@@ -3,8 +3,6 @@ $(document).ready(function() {
     stickNavbar();
     navbarHighlight();
 
-$("body").css("overflow", "hidden");
-
     var toggle  = document.querySelector(".c-hamburger");
     (toggle.classList.contains("is-active") === true) ? toggle.classList.remove("is-active") : toggle.classList.add("is-active");
 });
@@ -33,7 +31,6 @@ function adjustSizing() {
     $('#welcome').height($(window).height());
     $('#new-york').width($(window).width());
     $('.navbar-container').height($(window).height());
-    $('.content-container').height($(window).height());
 }
 
 // Fixing navbar if not on welcome page
