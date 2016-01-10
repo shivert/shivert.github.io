@@ -295,7 +295,8 @@ ul.nav a {
 
 #about-text {
 	text-align: center;
-	line-height: 140%
+	line-height: 140%;
+	margin-bottom: 40px;
 }
 
 
