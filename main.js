@@ -15,7 +15,7 @@ $(window).scroll(function() {
 });
 
 // Animate scrolling between sections
-$('#arrow_link,.brand').click(function(){
+$('.enterButton,.brand').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);

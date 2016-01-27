@@ -148,6 +148,10 @@ ul.circle li:last-child {
 	margin-bottom: 35px;
 }
 
+ul.circle:last-of-type li:last-child {
+	margin-bottom: 60px;
+}
+
 .brand {
 	font-size: 36px;
 	font-family: "Quicksand", sans-serif;
@@ -384,16 +388,11 @@ table.contact-info a:hover {
 	bottom: 60px;
 	width: 120px;
 	height: 120px;
-	cursor: pointer;
-	background-image: url("Users/spencerhivert/GitHub/Website/arrow.png");
     left:50%;
     margin-left:-70px;
     z-index: 100;
 }
 
-.down_arrow:hover {
-	transform: translateY(15px);
-}
 
 .real-content {
 	display: table-cell;
@@ -614,4 +613,25 @@ table.skills-table td:nth-child(2) {
 	position: absolute;
 	left: 280px;
 	margin: 0;
+}
+
+.enterButton {
+	background-color: black;
+	opacity: 0.7;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:3px solid #FFFFFF;
+	display:inline-block;
+	cursor:pointer;
+	color:#3399FF;
+	font-family: "Quicksand";
+	font-size:22px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.enterButton:active {
+	position:relative;
+	top:1px;
 }
