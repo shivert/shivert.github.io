@@ -101,3 +101,33 @@ $.fn.isOnScreen = function(){
     });
 
 })();
+
+// Allow use of arrow keys to jump from section to section
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 38: // up
+            $('.section').each(function() {
+                if ($(this).isOnScreen()) {
+                    $(document).scrollTop( $( "#" + $(this).prev().first().attr("id")).offset().top ); 
+                };
+            });           
+        break;
+
+        case 40: // down
+            if ($('#welcome').isOnScreen()) {
+                $(".enterButton").click();
+            } else if ($('#about').isOnScreen()) {
+                $(document).scrollTop( $( "#experience-anchor").offset().top );
+            } else if ($('#experience').isOnScreen()) {
+                $(document).scrollTop( $( "#skills-anchor").offset().top );
+            } else if ($('#skills').isOnScreen()) {
+                $(document).scrollTop( $( "#projects-anchor").offset().top );
+            } else if ($('#projects').isOnScreen()) {
+                $(document).scrollTop( $( "#contact-anchor").offset().top );
+            }  
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
