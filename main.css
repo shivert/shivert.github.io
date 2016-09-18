@@ -1,13 +1,83 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 700px) {
+	.img-circular {
+	    width: 600px;
+	    height: 600px;
+		border-radius: 300px;
+		-webkit-border-radius: 300px;
+		-moz-border-radius: 300px;
+	}
+
+	#about-text {
+		margin-top: 20px;
+		font-size: 48px;
+	}
+
+	.welcome-spiel {
+		width: 90%;
+		margin: 0 auto;
+		font-size: 24px;
+		margin-top: 30px;
+		color: black;
+	}
+
+	.navbar-fixed, .navbar-container, .menu-close-container {
+		display: none;
+	}
+
+	.body {
+		margin-left: 0px !important;
+	}
+
+	.mobile-navbar {
+		display: block !important;
+	}
 
 }
 
-@media only screen and (min-width: 481px) {
 
-	.disableScroll{
-	      overflow-y:hidden;
-	      overflow-x:hidden;
+@media only screen and (min-width: 700px) {
+
+	.img-circular {
+	    width: 300px;
+	    height: 300px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
 	}
+
+	.welcome-spiel {
+		width: 75%;
+	}
+
+	.body {
+		margin-left: 280px;
+	}
+
+	.body.minimized {
+	  margin-left: 8px;
+	}
+
+	.mobile-navbar {
+		display: none;
+	}
+
+}
+
+	.mobile-navbar {
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;
+		background-color: white;
+
+	}
+
+		.disableScroll{
+	      overflow-y:hidden;
+	      overflow-x:hidden; 
+	}
+
+
 	* 
 	{
 	    margin: 0px;
@@ -207,15 +277,11 @@
 	}
 
 	.img-circular {
-		 width: 300px;
-		 height: 300px;
 		 background-image: url('file:///Users/spencerhivert/Desktop/MX.jpg');
 		 background-size: cover;
 		 display: block;
-		 border-radius: 150px;
-		 -webkit-border-radius: 150px;
-		 -moz-border-radius: 150px;
 		 border: 2px solid #606060;
+		 margin: 0 auto;
 	}
 
 	.img-container {
@@ -227,8 +293,6 @@
 	}
 
 	.img-container-about {
-		width: 300px;  
-	    margin: 0 auto;
 	    margin-top: 20px;
 
 	}
@@ -427,7 +491,6 @@
 	}
 
 	.welcome-spiel {
-		width: 75%;
 		margin: 0 auto;
 		font-size: 24px;
 		margin-top: 30px;
@@ -492,14 +555,6 @@
 
 	table.skills-table td:nth-child(2) {
 		padding-right: 80px;
-	}
-
-	.body {
-		margin-left: 280px;
-	}
-
-	.body.minimized {
-	  margin-left: 8px;
 	}
 
 	.menu-close {
@@ -756,4 +811,3 @@
 		overflow: hidden;
 	}
 
-}

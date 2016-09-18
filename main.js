@@ -2,6 +2,7 @@ $(document).ready(function() {
     adjustSizing();
     stickNavbar();
     navbarHighlight();
+    $('.mobile-navbar').css('visibility', 'hidden');
 
     var toggle  = document.querySelector(".c-hamburger");
     (toggle.classList.contains("is-active") === true) ? toggle.classList.remove("is-active") : toggle.classList.add("is-active");
@@ -11,7 +12,6 @@ $(window).resize(adjustSizing);
 
 $(window).scroll(function() {
     stickNavbar();
-    navbarHighlight();
 });
 
 // Animate scrolling between sections
@@ -20,6 +20,10 @@ $('.enterButton,.brand').click(function(){
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
     return false;
+});
+
+$('.enterButton').click(function(){
+    $('.mobile-navbar').css('visibility', 'visible');
 });
 
 //  Adjust the sizing of elements to best fit the current display
