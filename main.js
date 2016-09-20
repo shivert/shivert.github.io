@@ -2,8 +2,10 @@ $('.pro-position').click(function(){
 	$(this).next().slideToggle();
 });
 
-$('#myTopnav li').click(function(){
+$('#myTopnav li:not(:last-child)').click(function(){
 	var href = $(this).find(">:first-child").attr('href');
+
+	$("#myTopnav").removeClass("responsive");
 	
     $('html, body').animate({
         scrollTop: $(href).offset().top
