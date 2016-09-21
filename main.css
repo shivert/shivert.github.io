@@ -254,6 +254,10 @@ ul.circle {
 	display: none;
 }
 
+ul.circle li:not(:first-of-type) {
+	margin-top: 10px;
+}
+
 ul.circle li {
 	list-style-type: circle;
 	display: list-item;
@@ -262,7 +266,6 @@ ul.circle li {
 	font-weight: 300;
 	font-family: "Dosis", sans-serif;
 	color: black;
-	margin-top: 10px;
 	text-align: left;
 	padding-left: 15px;
 }
