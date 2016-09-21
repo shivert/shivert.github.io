@@ -222,10 +222,24 @@ p {
 }
 
 .about-me {
-	margin-top: 35px;
-  font-size: 35px;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-align: center;
+	font-size: 35px;
+	margin-top: 55px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.title {
+	margin-top: 30px;
+    font-size: 35px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.tag-line {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
 }
 
 /* 
@@ -497,6 +511,25 @@ form {
   color: #fff;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.fa-angle-right {
+	color: #3D59AB;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+.rotate{
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate.down{
+    -ms-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
 }
 
 

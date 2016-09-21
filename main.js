@@ -1,5 +1,6 @@
 $('.pro-position').click(function(){
 	$(this).next().slideToggle();
+	$(this).find(".rotate").toggleClass("down"); 
 });
 
 $('#myTopnav li:not(:last-child)').click(function(){
