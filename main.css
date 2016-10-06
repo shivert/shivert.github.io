@@ -303,6 +303,8 @@ ul.circle:last-of-type li:last-child {
 
 .pro-position:hover {
 	text-decoration: underline;
+	cursor: pointer;
+
 }
 
 #resume-text {
