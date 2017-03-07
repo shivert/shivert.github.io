@@ -20,3 +20,13 @@ $('.envelope').click(function(){
         scrollTop: $('#contact').offset().top
     }, 500);
 });
+
+$('li.icon a').click(function(){
+	var nav = $("#myTopnav");
+
+	if (nav.hasClass("responsive")) {
+		nav.removeClass("responsive");
+	} else {
+		nav.addClass("responsive");
+	}
+});
