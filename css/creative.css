@@ -352,6 +352,13 @@ h3 {
 .fa-search-plus {
   font-size: 3em; }
 
+.navbar-toggler {
+  z-index: 1; }
+
+@media (max-width: 576px) {
+  nav > .container {
+    width: 100%; } }
+
 #mainNav {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
