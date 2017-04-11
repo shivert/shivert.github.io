@@ -1,231 +1,448 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Spencer Hivert | Homepage</title>
-  <link rel="shortcut icon" href="images/emblem-new.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio Website foe Spencer Hivert">
+    <meta name="author" content="Spencer Hivert">
 
-  <link rel="stylesheet" type="text/css" href="main.css" /> 
-  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <title>Spencer Hivert | Homepage</title>
+    <link rel="shortcut icon" href="img/emblem-new.png"/>
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Programming Language Icons -->
+    <link rel="stylesheet" href="css/font-mfizz/font-mfizz.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:300,400' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
 </head>
 
-<body>
+<body id="page-top">
 
-<div class="nav-menu">
-  <div class="name">Spencer <span>Hivert</span></div>
-
-  <ul class="topnav" id="myTopnav">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="resume.pdf" target="_blank">Resume</a></li>
-    <li><a href="#contact">Contact</a></li>  
-
-    <li class="icon">
-      <a href="javascript:void(0);">☰</a>
-    </li>
-  </ul>
-</div>
-
-  <div id="about" >
-    
-    <div class="content-container">
-  
-        <div class="img-container-about">
-          <img class= "img-circular", src="images/headshot.png">
-        </div>
-
-        <div class="title">SPENCER HIVERT</div>
-        <div class="tag-line">Software Engineer | Systems Design Engineering Student</div>
-
-        <div class="social-buttons">
-          <a href="#contact" class="social-button envelope"><i class="fa fa-envelope"></i></a>
-          <a href="https://ca.linkedin.com/in/shivert" target="_blank" class="social-button linkedin"><i class="fa fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/spencer.hivert" target="_blank" class="social-button facebook"><i class="fa fa-facebook"></i></a>
-          <a href="https://github.com/shivert" target="_blank" class="social-button github"><i class="fa fa-github"></i></a>
-        </div>
-
-        <div class="about-me">ABOUT ME</div>
-
-        <div class="about-text">
-          <p>
-            I am a System Desgin Engineering student studying at the University of Waterloo. I have a passion for technology and innovation. I always put 110% effort into everything I do and take pride in all of my work. In my spare time, I enjoy spending time at the motocross track. I have a need for speed, whether it be two wheels or four wheels.
-          </p>
-        </div>
-    </div>
-  </div>
-
-  <div id="experience">
-    <a id="experience-anchor"></a>
-    
-    <div class="content-container">
-      <div class="pro-content">
-        <h5>Professional Experience</h5>
-        <p id="pro-text">Green Brick Labs</p>
-        <p class="pro-position"><i class="fa fa-angle-right rotate"></i>Full Stack Developer (CO-OP)<span id="right-tab">May 2016 - Aug. 2016</span></p>
-        <ul class="circle">
-          <li>Designed and implemented self-sustaining internal role-based permission system which reduced the time to change a permission from days to seconds using PHP, MySQL, JQuery, JavaScript, HTML5, CSS3</li>
-          <li>Re-designed the Green Brick Labs blog and job landing pages using Hubspot</li>
-          <li>Built several tools for the marketing team allowing them create, run and manage promotional campaigns</li>
-          <li>Re-designed NFL Survivor Pool which received 2500+ entries</li>
-        </ul>
-        <p id="pro-text">Flipp Corp., Toronto, ON</p>
-        <p class="pro-position"><i class="fa fa-angle-right rotate"></i>Software Developer (CO-OP) <span id="right-tab">Sept. 2015 - Dec. 2015</span></p>
-        <ul class="circle">
-          <li>Developed a store list indexing system using Ruby on Rails and Selenium to gather and parse store data for all retailers. Acquired experience with concurrent programming by parallelizing the system.</li>
-          <li>Developed reports including a flyer run visualization report using the Google Maps API, GeoJSON and JQuery to assess the current flyer distribution strategy</li>
-          <li>Worked directly with the analytics team, Hive and Redshift to get user data and generate a report based on in-app searches</li>
-          <li>Built an audit tool to track all changes made to store data using the Rails Framework</li>
-        </ul>
-        <p class="pro-position"><i class="fa fa-angle-right rotate"></i>Software Developer (CO-OP) <span id="right-tab">Jan. 2015 - May 2015</span></p>
-        <ul class="circle">
-          <li>Managed and coordinated all aspects of the flyer indexer pipeline</li>
-          <li>Represented co-ops and provided indexer update at daily scrum</li>
-          <li>Developed many internal health tools using Ruby on Rails</li>
-          <li>Worked with a variety of languages and tools including Ruby, SQL, JQuery, HTML5, CSS and Selenium</li>
-        </ul>
-        <p id="pro-text">Make-A-Wish</p>
-        <p class="pro-position"><i class="fa fa-angle-right rotate"></i>Wish Coordinator (volunteer)<span id="right-tab">Mar. 2014 - Present</span></p>
-        <ul class="circle">
-          <li>Coordinated wish experience for local wishes by working directly with Make-A-Wish families and head office</li>
-          <li>Worked within a given budget and certain policies to make each wish experience unique</li>
-        </ul>
-        <p id="resume-text">To view my more about me and my professional experience, please check out my <a target="_blank" id="resume" href="resume.pdf">resume</a>!</p> 
-      </div>
-    </div>
-  </div>
-
-  <div id="skills" class="section blue">
-      <a id="skills-anchor"></a>
-      <div class="content-container">
-        <div class="pro-content">
-          <h5>
-            Skills
-          </h5>
-
-            <div class="row">
-              <div class="col-sm-6">
-                  <img src="images/rails.png">
-                  <p>Ruby on Rails</p>
-              </div>
-              <div class="col-sm-6">
-                  <img src="images/html.png">
-                  <p>HTML</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-6">
-                  <img src="images/ruby.png">
-                  <p>Ruby</p>
-              </div>
-              <div class="col-sm-6">
-                  <img src="images/css.png">
-                  <p>CSS</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-6">
-                  <img src="images/python.png">
-                  <p>Python</p>
-              </div>
-              <div class="col-sm-6">
-                  <img src="images/selenium.png">
-                  <p>Selenium</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-6">
-                  <img src="images/cplusplus.png">
-                  <p>C++</p>
-              </div>
-              <div class="col-sm-6">
-                  <img src="images/git.png">
-                  <p>Git</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-6">
-                  <img src="images/sql.png">
-                  <p>MySQL</p>
-              </div>
-              <div class="col-sm-6">
-                  <img src="images/jira.png">
-                  <p>Jira</p>
-              </div>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Spencer Hivert</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#values">Values</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-      </div>
-    </div>
+    </nav>
 
-    <div id="projects" class="section white">
-      <a id="projects-anchor"></a>
-      
-      <div class="content-container">
-        <div class="pro-content">
-          <h5>Projects</h5>
-          <p id="pro-text">Personal Website</p>
-          <ul class="circle">
-            <li>Developed this website from scratch</li>
-            <li>Focused on creating optimal user experience</li>
-            <li>Built using HTML, CSS, and jQuery</li>
-            <li>You can view the code <a target="_blank" id="resume" href="https://github.com/shivert/shivert.github.io">here</a></li>
-          </ul>
-          <p id="pro-text">Google Maps API Flyer Visualization Tool (Flipp Inc.)</p>
-          <ul class="circle">
-            <li>Developed tool to display the flyer distribution for select merchants using the Google Maps API</li>
-            <li>Used GeoJSON zip code and postal code data to create distribution zones</li>
-            <li>Built using Ruby on Rails, GeoJSON and jQuery</li>
-          </ul>
+    <header class="masthead">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <img src="img/headshot.png" class="img-circle">
+                <h1 id="homeHeading">Spencer Hivert</h1>
+                <hr>
+                <p>Software Engineer | University of Waterloo</p>
+                <a class="btn btn-primary btn-xl" href="#about">Learn More</a>
+            </div>
         </div>
-      </div>
-    </div>
+    </header>
 
-    <div id="contact" class="section blue">
-      <a id="contact-anchor"></a>
-      
-      <div class="content-container">
-        <div class="contact-info-text">
-          <h5>Contact Me</h5>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <h2 class="section-heading text-white">About Me</h2>
+                    <hr class="light">
+                    <p class="text-faded">
+                        Hi there, my name is Spencer! I am currently a Systems Desgin Engineering student at the University of Waterloo.</p>
+                    <p class="text-faded">
+                        I have a passion for technology and innovation. I enjoy learning new things and I always put 110% into anything I take on. When I'm not behind my computer, chances are I'll be doing something related to my first passion: motorcycles. <i class="fa fa-motorcycle"></i>
+                    </p>
+                    <p class="text-faded">
+                        I love to chat about new and exciting opportunities - let's talk! 
+                    </p>
+                    <a class="btn btn-default btn-xl sr-button" href="#contact">Contact Me!</a>
+                </div>
+            </div>
         </div>
-          <form method="post" action="https://formspree.io/spencer.hivert@gmail.com" id="cf">
-              <input type="text" name="name" placeholder="Name" class="form-control" required>
-              <input type="email" name="_replyto" placeholder="Email" class="form-control" required>
-              <textarea name="message" rows="5" placeholder="Write your message here..." class="form-control-text" required></textarea>
-            <input type="text" name="_gotcha" style="display:none">
-            <input type="hidden" name="_next" value="http://formspree.io/thanks"/>
-              <input type="submit" value="Send Message" class="btn btn-default">
-        </form>
-      </div>
+    </section>
+
+    <section id="values">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Core Values</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart-o text-primary sr-icons"></i>
+                        <h3>Passion</h3>
+                        <p class="text-muted">Do it with passion or not at all.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-handshake-o text-primary sr-icons"></i>
+                        <h3>Integrity</h3>
+                        <p class="text-muted">“The most important persuasion tool you have in your entire arsenal is integrity.”</p>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-trophy text-primary sr-icons"></i>
+                        <h3>Excellence</h3>
+                        <p class="text-muted">Excellence is the gradual result of always striving to do better.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-users text-primary sr-icons"></i>
+                        <h3>Leadership</h3>
+                        <p class="text-muted">A true leader is one who is humble enough to admit their mistakes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-exclamation text-primary sr-icons"></i>
+                        <h3>Deliver Wow</h3>
+                        <p class="text-muted">Admittedly stollen from Zappos - deliver products which make people say "wow".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="projects">
+        <div class="call-to-action bg-dark">
+            <div class="container text-center">
+                <h2>Projects</h2>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-6 portfolio-box">
+                    <img class="img-fluid" src="img/portfolio/mac-geojson.png" alt="">
+                    <div class="portfolio-link portfolio-box-caption" href="#portfolioModal1" data-toggle="modal">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Flipp Corp
+                            </div>
+                            <div class="project-name">
+                                Flyer Run GeoJson Mapping Tool
+                            </div>
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-6 portfolio-box">
+                    <img class="img-fluid" src="img/portfolio/mac-site.png" alt="">
+                    <div class="portfolio-link portfolio-box-caption" href="#portfolioModal2" data-toggle="modal">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Personal
+                            </div>
+                            <div class="project-name">
+                                Portfolio Website
+                            </div>
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="call-to-action bg-dark">
+        <div class="container text-center">
+            <a class="btn btn-default btn-xl sr-button" <a href="https://github.com/shivert" target="_blank">Check them out on GitHub!</a>
+            <h3>And many more in the works!</h3>
+        </div>
     </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Dosis:300,400' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="main.js"></script>
+    <section class="bg-primary" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <h2 class="section-heading text-white">Skills</h2>
+                    <hr class="light">
+                    <p class="text-faded">Always learning new things.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-ruby-on-rails mfizz icon-shift-right-xl"></i>
+                        <h3>Ruby on Rails</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-ruby mfizz icon-shift-right-md"></i>
+                        <h3>Ruby</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-html5 mfizz icon-shift-right-md"></i>
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-css3 mfizz icon-shift-right-lg"></i>
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-python mfizz icon-shift-right-lg"></i>
+                        <h3>Python</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-php-alt mfizz icon-shift-right-lg-2"></i>
+                        <h3>PHP</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-cplusplus mfizz"></i>
+                        <h3>C++</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-javascript mfizz icon-shift-right-lg-3"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-nodejs mfizz icon-shift-right-xl"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-reactjs mfizz" style="margin-left: -14px;"></i>
+                        <h3>React</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-jquery mfizz"></i>
+                        <h3>jQuery</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-gulp-alt mfizz icon-shift-right-xxl"></i>
+                        <h3>Gulp</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-aws mfizz icon-shift-right-sm"></i>
+                        <h3>AWS</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-mysql mfizz icon-shift-right-xs"></i>
+                        <h3>mySQL</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-mongodb mfizz icon-shift-right-xs"></i>
+                        <h3>MongoDB</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-postgres-alt mfizz"></i>
+                        <h3>PostgreSQL</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 offset-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-git mfizz icon-shift-right-xs"></i>
+                        <h3>Git</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-6 text-center">
+                    <div class="service-box">
+                        <i class="icon-ubuntu mfizz icon-shift-right-xs"></i>
+                        <h3>Ubuntu</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Feel free to drop me a line or connect with me on any of the following to stay up to date!</p>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <a class="sr-contact open-mail-form"><i class="fa fa-envelope-o fa-3x"></i></a>
+                    <a href="https://ca.linkedin.com/in/shivert" target="_blank" class="sr-contact" href="#"><i class="fa fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.facebook.com/spencer.hivert" target="_blank" class="sr-contact" href="#"><i class="fa fa-facebook fa-3x"></i></a>
+                    <a href="https://github.com/shivert" target="_blank" class="sr-contact" href="#"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 text-center form-div hide-mail-div">
+                    <form method="post" action="https://formspree.io/spencer.hivert@gmail.com" id="cf">
+                          <input type="text" name="name" placeholder="Name" class="form-control" required>
+                          <input type="email" name="_replyto" placeholder="Email" class="form-control" required>
+                          <textarea name="message" rows="5" placeholder="Write your message here..." class="form-control-text" required></textarea>
+                        <input type="text" name="_gotcha" style="display:none">
+                        <input type="hidden" name="_next" value="http://formspree.io/thanks"/>
+                          <input type="submit" value="Send Message" class="btn btn-primary submit-bttn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    ga('create', 'UA-73228300-1', 'auto');
-    ga('send', 'pageview');
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" data-target="#portfolioModal1">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <div class="modal-body">
+                            <h2>Flyer Run GeoJson Mapping Tool</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/mac-geojson.png" class="img-centered img-fluid" alt="">
+                            <p>Flipp is the goto app for viewing weekly circulars on your phone. With thousands of flyers every week, it was very difficult to verify the accuracy of the flyer distribution zones without having any visual aid. This tool used the zip codes contained in each of the zones as well as some zip code GeoJSON data and created and plotted the polygons using the Google Maps API.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed for: 
+                                    <strong><a href="https://corp.flipp.com/">Flipp Corp</a>
+                                    </strong>
+                                </li>
+                                <li>Technologies Used:
+                                    <strong>Ruby of Rails, GeoJSON, Rails, Google Maps API
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" data-target="#portfolioModal2">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <div class="modal-body">
+                            <h2>Portfolio Website</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/mac-site.png" class="img-centered img-fluid" alt="">                            
+                            <p> Developed this personal portfolio website to showcase my work and to take a shot at the front of the stack rather than hiding in the back.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed for: 
+                                    <strong>Personal Use
+                                    </strong>
+                                </li>
+                                <li>Technologies Used:
+                                    <strong>HTML, CSS, Javascript, JQuery, Bootstrap                                  
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/creative.min.js"></script>
 
 </body>
+
 </html>
