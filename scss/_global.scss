@@ -105,9 +105,11 @@ body {
 }
 
 .fa-3x {
-  padding: 20px;
-  color: rgb(41, 43, 44);
-  transition: all .2s ease-in-out;
+    padding: 20px;
+    color: rgb(41, 43, 44);
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
 }
 
 .fa-3x:hover {
@@ -153,6 +155,10 @@ body {
 
     section {
         padding: 50px 0;
+    }
+
+    nav > .container {
+        width: 100%;
     }
 }
 
@@ -327,7 +333,7 @@ input:-ms-input-placeholder {
     height: 0;
 }
 
-h3 {
+section#skills h3 {
     color: #fff;
 }
 
@@ -422,10 +428,4 @@ h3 {
 
 .navbar-toggler {
     z-index: 1;
-}
-
-@media (max-width: 576px) {
-    nav > .container {
-        width: 100%;
-    }
 }

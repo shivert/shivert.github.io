@@ -56,6 +56,6 @@
         duration: 600,
         scale: 0.3,
         distance: '0px'
-    }, 300);
+    }, 2);
 
 })(jQuery); // End of use strict

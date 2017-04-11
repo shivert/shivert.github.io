@@ -92,7 +92,9 @@ body {
 .fa-3x {
   padding: 20px;
   color: #292b2c;
-  transition: all .2s ease-in-out; }
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out; }
 
 .fa-3x:hover {
   transform: scale(1.2); }
@@ -121,7 +123,9 @@ body {
   .portfolio-box:first-of-type {
     margin-bottom: 40px !important; }
   section {
-    padding: 50px 0; } }
+    padding: 50px 0; }
+  nav > .container {
+    width: 100%; } }
 
 @media only screen and (max-width: 768px) {
   .img-circle {
@@ -260,7 +264,7 @@ input:-ms-input-placeholder {
   opacity: 0;
   height: 0; }
 
-h3 {
+section#skills h3 {
   color: #fff; }
 
 .portfolio-modal .modal-dialog {
@@ -354,10 +358,6 @@ h3 {
 
 .navbar-toggler {
   z-index: 1; }
-
-@media (max-width: 576px) {
-  nav > .container {
-    width: 100%; } }
 
 #mainNav {
   background-color: white;
